@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout	android:id="@+id/widget32"
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent"
+				android:background="@drawable/background"
+				xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+<TableLayout 	android:id="@+id/widget28"
+				android:layout_width="201dp"
+				android:layout_height="340dp"
+				android:orientation="vertical"
+				android:gravity="bottom"
+				android:layout_centerVertical="false"
+				android:layout_centerHorizontal="true" >
+				
+<Button 		android:id="@+id/Update"
+				android:layout_width="144dp"
+				android:layout_height="44dp"
+				android:background="@drawable/update_button" >
+</Button>
+
+<TextView 		android:id="@+id/updatemsg"
+				android:maxWidth="320dp" >
+				
+</TextView>	
+
+</TableLayout>	
+
+</RelativeLayout>
